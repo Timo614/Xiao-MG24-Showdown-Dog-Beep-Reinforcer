@@ -13,3 +13,13 @@ To get the dog collar signals I used here I used my Flipper Zero device set to r
 - README: This file
 - DogBeepFlipperSubJupyterCell.py: Jupyter cell for converting sub file to format needed
 - src: Folder containing end project Arduino logic
+- Hardware: Folder containing Schematic, BOM, and Gerber for the Explorer 433 board
+- Enclosure: Folder containing STL files for printing the enclosure for the hardware
+
+## Dependencies
+
+To properly use this project several dependencies are needed on the Arduino side:
+- U8g2
+- Adafruit AHTX0
+
+Please install these libraries and their dependencies to properly compile the Arduino code.
