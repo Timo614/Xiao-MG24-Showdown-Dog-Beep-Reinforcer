@@ -12,6 +12,10 @@ The Xiao MG24 is connected to the RFM69HCW via the Xiao's pins with SPI setup, a
 
 I have two demonstration videos which correspond with each of these projects. The latter video was from before the Xiao Showdown extension while the former is from after. I was able to setup a Thread Border Router on my Home Assistant over the past week and utilize the Matter functionality allowing me to take advantage of the onboard Matter over Thread capabilities.
 
+Videos:
+- https://youtu.be/2XbyZKuGWDM (with Matter)
+- https://youtu.be/jQOkAnLn5Ec (original pre Matter OLED and Button demonstration)
+
 The first demonstration video showcases the device, it being used with home assistant, and then dives into the creation process with some additional demonstrations such as the steps to record on the Flipper device for gathering the initial data.
 
 The second demonstration video shows the AHT21 being polled and updating its status via the OLED display along with the button being used for triggering a specific collar based on a number of presses in a set window. The Xiao footprint is nice as it is small and given multiple microcontrollers from Seeed use it you can build a board and swap out the Xiao based on your needs (Thread? MG24, WIFI? ESP32C3, Bluetooth nrf52840).
